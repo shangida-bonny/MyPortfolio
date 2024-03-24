@@ -1,0 +1,213 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*--------- Navigation Start -----------*/
+.navbar{
+	background-color: #0C0C0C!important;
+	margin:0;
+}
+
+.navbar .navbar-brand{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar .navbar-brand .lastName{
+	color: #63C3FE;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	color: white;
+	padding: 12px 14px;
+	font-size: 16px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+color: #63C3FE;
+transition:.6s;
+}
+
+#contactBtn{
+	border: 1px solid #63C3FE;
+	padding: 6px 14px;
+	color:white;
+}
+
+/*--------- Navigation End -----------*/
+/*--------- banner area Start -----------*/
+.banner-area{
+width:100%;
+height:50vh;
+background-image:url('../../Assets/images/pic.jpg');
+background-repeat:no repeat;
+background-size:cover;
+background-position:center;
+position: relative;
+}
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background-color:#0C0C0C;
+opacity:.8;
+}
+.banner-area .banner-content h1 .last-name{
+color:#63C3FE;
+}
+
+/*--------- banner area End -----------*/
+/*--------- About area Start -----------*/
+.about-area{
+padding-top:40px;
+padding-bottom:40px;
+background-color:#0C0C0C;
+}
+.about-area .profile-photo{
+width:200px;
+height:200px;
+border:2px solid #63C3FE;
+border-radius:50%;
+background-image:url('../../Assets/images/bonny.jpg');
+background-repeat:no repeat;
+background-size:cover;
+background-position:center;
+margin-bottom:10px;
+
+} 
+.name{
+color:#63C3FE;
+margin:0;
+}
+.about-area .social-link{
+border-bottom:1px solid #63C3FE;
+padding-bottom:8px;
+
+}
+.about-area .social-link a{
+display:inline block;
+text-decoration:none;
+margin-right: 8px;
+}
+.bi-whatsapp{
+color:#075e54;
+}
+.bi-linkedin{
+color:#0077b5;
+}
+.bi-instagram{
+color:#fccc63;
+}
+.about-area .about-me{
+text-align:justify;
+}
+/*--------- About area End -----------*/
+/*---------Service area start -----------*/
+.service-area{
+padding-top:50px;
+padding-bottom:50px;
+background-color:#0C0C0C;
+position:relative;
+}
+.service-area .heading{
+margin-bottom:10px;
+border-bottom:1px solid #63C3FE;
+}
+.service-area .card{
+border: 3px solid white;
+margin-top:15px;
+}
+.service-area .card:hover{
+border-color:#63C3FE;
+transition:.6s;
+}
+.service-area .card .card-body .icon{
+font-size:50px;
+color:#63C3FE;
+text-align:center;
+position:relative;
+justify-content:center;
+margin-left:55px;
+margin-bottom:45px;
+margin-top: 30px;
+}
+.service-area .card .card-body .icon i{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50px, -50px);
+	position: absolute;
+}
+/*--------- Service area End -----------*/
+/*--------- skill area start -----------*/
+.skill-area{
+padding-top:50px;
+padding-bottom:50px;
+background-color:#0C0C0C;
+}
+.skill-area .heading{
+border-bottom:1px solid #63C3FE;
+margin-bottom:10px;
+}
+.skill-area label{
+color:white;
+}
+/*--------- skill area End -----------*/
+
+/*--------- contact area start -----------*/
+.contact-area{
+padding-top:50px;
+padding-bottom:50px;
+background-color:#0C0C0C;
+}
+.contact-area .heading{
+margin-bottom:10px;
+border-bottom:1px solid #63C3FE;
+}
+.contact-area form label{
+color:white;
+}
+.contact-area form input{
+border-radius:0;
+}
+.contact-area form textarea{
+border-radius:0;
+}
+/*--------- contact area End -----------*/
+/*--------- footer area start -----------*/
+footer{
+padding-top:50px;
+padding-bottom:50px;
+background-color:#0C0C0C;
+border-top:1px solid #8362FE;
+}
+footer .f-heading h5{
+color:white;
+}
+footer ul{
+margin:0;
+padding:0;
+}
+footer ul li{
+color: #8362FE!important;
+line-height:32px;
+}
+footer ul li a{
+color: #B6B6B6!important;
+}
+footer form input,button{
+border-radius:0!important;
+}
+footer p{
+color:#B6B6B6!important;
+}
+
+/*--------- footer area End -----------*/
